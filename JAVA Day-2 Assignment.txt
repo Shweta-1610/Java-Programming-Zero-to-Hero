@@ -1,0 +1,22 @@
+Day2 Assignment
+
+ 1. Write a Java program which would take two values through command line argument 
+    and print the sum of the two values.
+
+   Source Code: 
+
+   // Sum of two integers Using Command Line Argument
+
+	class test{
+  		public static void main(String[] args) {
+      			int a = Integer.parseInt(args[0]);
+      			int b = Integer.parseInt(args[1]);
+      			int sum = a+b;
+      			System.out.print("Sum of two intergers: "+sum);
+ 			}
+		   }
+
+     Output:
+     PS C:\Users\Shweta\Desktop\cpp> javac test.java  
+     PS C:\Users\Shweta\Desktop\cpp> java test 114 789
+     Sum of two intergers: 903
